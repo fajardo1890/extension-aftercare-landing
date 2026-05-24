@@ -3,7 +3,7 @@
     --white: #ffffff;
     --text-main: #333333;
     --text-blue: #23527c;
-    --brand-color: #C89520; /* Gold */
+    --brand-color: #DFB24F; /* Soft Gold */
     --border-color: #e0e0e0;
     --font-main: 'Montserrat', sans-serif;
     --font-heading: 'Poppins', sans-serif;
@@ -83,7 +83,7 @@ body {
 }
 
 .scroll-btn:hover {
-    background-color: #a37a1a;
+    background-color: #C99B36;
 }
 
 .btn-subtext {
@@ -283,7 +283,7 @@ input:focus, select:focus {
 }
 
 .submit-btn:hover {
-    background-color: #a37a1a;
+    background-color: #C99B36;
 }
 
 /* Product Showcase */
