@@ -1,5 +1,5 @@
 :root {
-    --bg-color: #f7f7f7;
+    --bg-color: #000000;
     --white: #ffffff;
     --text-main: #333333;
     --text-blue: #23527c;
@@ -41,7 +41,7 @@ body {
 .main-title {
     font-family: var(--font-heading);
     font-size: 2.2rem;
-    color: var(--text-blue);
+    color: var(--white);
     text-align: center;
     margin-bottom: 20px;
     line-height: 1.2;
@@ -62,7 +62,7 @@ body {
 .price-display {
     text-align: center;
     font-size: 1.5rem;
-    color: var(--text-blue);
+    color: var(--white);
     font-weight: 600;
     margin-bottom: 20px;
 }
@@ -118,10 +118,10 @@ body {
 }
 
 .benefits-list p {
-    color: var(--text-blue);
+    color: #e0e0e0;
 }
 .benefits-list strong {
-    color: var(--text-main);
+    color: var(--white);
 }
 
 /* RIGHT COLUMN (CHECKOUT FORM) */
