@@ -1,10 +1,10 @@
 :root {
-    --bg-color: #000000;
-    --white: #111111;
-    --text-main: #e0e0e0;
-    --text-blue: #ffffff;
-    --brand-color: #FFC000; /* Yellow */
-    --border-color: #333333;
+    --bg-color: #f7f7f7;
+    --white: #ffffff;
+    --text-main: #333333;
+    --text-blue: #23527c;
+    --brand-color: #DFB24F; /* Soft Gold */
+    --border-color: #e0e0e0;
     --font-main: 'Montserrat', sans-serif;
     --font-heading: 'Poppins', sans-serif;
 }
@@ -83,7 +83,7 @@ body {
 }
 
 .scroll-btn:hover {
-    background-color: #e6ac00;
+    background-color: #C99B36;
 }
 
 .btn-subtext {
@@ -162,7 +162,7 @@ body {
 label {
     display: block;
     font-size: 0.8rem;
-    color: #aaaaaa;
+    color: #666;
     margin-bottom: 5px;
 }
 
@@ -176,8 +176,6 @@ select {
     border-radius: 4px;
     font-size: 0.9rem;
     font-family: var(--font-main);
-    background-color: #222222;
-    color: var(--text-main);
 }
 
 input:focus, select:focus {
@@ -200,7 +198,7 @@ input:focus, select:focus {
 }
 
 .credit-card-box {
-    background-color: #1a1a1a;
+    background-color: #f9f9f9;
     padding: 15px;
     border: 1px solid var(--border-color);
     border-radius: 4px;
@@ -212,8 +210,8 @@ input:focus, select:focus {
 
 /* Order Bump */
 .order-bump {
-    background-color: #111a22;
-    border: 2px dashed var(--brand-color);
+    background-color: #f0f7ff;
+    border: 2px dashed #a3c2e0;
     padding: 15px;
     border-radius: 6px;
     margin-bottom: 25px;
@@ -248,7 +246,7 @@ input:focus, select:focus {
 
 .bump-content p {
     font-size: 0.85rem;
-    color: #aaaaaa;
+    color: #555;
 }
 
 /* Total Section */
@@ -285,7 +283,7 @@ input:focus, select:focus {
 }
 
 .submit-btn:hover {
-    background-color: #e6ac00;
+    background-color: #C99B36;
 }
 
 /* Product Showcase */
